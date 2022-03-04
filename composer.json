@@ -1,0 +1,15 @@
+{
+    "name": "ubuntu/www",
+    "authors": [
+        {
+            "name": "Alexis Romero",
+            "email": "romero.alexis@free.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
