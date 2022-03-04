@@ -17,7 +17,7 @@ class HelloController
            200
        );
 
-       $response->send();
+       return $response;
 
     }
 

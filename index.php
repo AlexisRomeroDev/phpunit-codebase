@@ -6,6 +6,8 @@ use App\HelloController;
 
 $controller = new HelloController();
 
-$controller->sayHello();
+$response = $controller->sayHello();
+
+$response->send();
 
 
