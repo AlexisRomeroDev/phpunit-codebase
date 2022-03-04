@@ -20,8 +20,8 @@ class Response
     public function send()
     {
         http_response_code($this->statusCode);
-        foreach ($this->headers as $header){
-            header($header);
+        foreach ($this->headers as $key => $value){
+            header($key.':'.$value);
         }
         echo $this->content;
 

@@ -13,7 +13,7 @@ class HelloController
 
        $response = new Response(
            "Hello ${name}",
-           ['Content-Type: text/html'],
+           ['Content-Type' => 'text/html'],
            200
        );
 
